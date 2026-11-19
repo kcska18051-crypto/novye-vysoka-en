@@ -6,7 +6,7 @@
  let scale=1,x=0,y=0,baseW=0,baseH=0,gesture=null,timer;
  const pointers=new Map();let pressedRegion=null,startPoint=null,moved=false;
  const popup=$('#qe-quarter-popup');let popupRegion=null,closeTimer,pinned=false,ignoreOpeningClick=false;
- const names={degtyaritsy:'Degtyaritsy',nikolo:'Nikolo-Korma',vysoka:'Novye Vysoka',chernaya:'Chyornaya Rechka (Black River)'};
+ const names={degtyaritsy:'Degtyaritsy',nikolo:'Nikolo-Korma',vysoka:'Novye Vysoka',chernaya:'Chyornaya Rechka'};
  function hidePopup(){pinned=false;clearTimeout(closeTimer);popup.hidden=true;popupRegion?.classList.remove('is-active');popupRegion=null}
  function placePopup(){if(!popupRegion||popup.hidden)return;const b=popupRegion.querySelector('path').getBoundingClientRect(),shell=$('.qe-map-shell').getBoundingClientRect();const left=Math.max(12,Math.min(shell.width-popup.offsetWidth-12,b.x+b.width/2-shell.x-popup.offsetWidth/2));let top=b.bottom-shell.y+10;if(top+popup.offsetHeight>viewport.clientHeight-10)top=Math.max(10,b.top-shell.y-popup.offsetHeight-10);popup.style.left=left+'px';popup.style.top=top+'px'}
  function showPopup(region,pin=false){pinned=pin;if(pin)ignoreOpeningClick=true;clearTimeout(closeTimer);popupRegion?.classList.remove('is-active');popupRegion=region;region.classList.add('is-active');const id=region.dataset.mapQuarter;$('#qe-popup-name').textContent=names[id];$('#qe-open-selected').dataset.quarter=id;const price={degtyaritsy:'from 70,000 RUB per 100 m²',nikolo:'from 45,000 RUB per 100 m²',vysoka:'from 70,000 RUB per 100 m²',chernaya:'from 100,000 RUB per 100 m²'}[id];$('#qe-popup-price').hidden=!price;$('#qe-popup-price').textContent=price||'';popup.hidden=false;placePopup()}

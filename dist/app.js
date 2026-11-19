@@ -299,10 +299,10 @@
   const leadClose = leadDialog?.querySelector('.lead-dialog-close');
   let leadReturnFocus = null;
   const leadContent = {
-    selection: { title: 'Find a plot', submit: 'Get a shortlist' },
-    tour: { title: 'Book a visit', submit: 'Book a visit' },
-    installment: { title: 'Buy a plot in instalments', submit: 'Request advice' },
-    promotion: { title: 'Join the promotion', submit: 'Send an enquiry' }
+    selection: { title: 'Find a plot', submit: 'Get a selection' },
+    tour: { title: 'Book a tour', submit: 'Book a tour' },
+    installment: { title: 'A plot in instalments', submit: 'Get a consultation' },
+    promotion: { title: 'Take part in the promotion', submit: 'Submit an application' }
   };
   const setLeadIntent = (intent) => {
     const selectedIntent = leadContent[intent] ? intent : 'selection';
@@ -316,8 +316,8 @@
     if (intro) intro.textContent = selectedIntent === 'installment'
       ? 'Leave your phone number — we will help you find a plot and explain the purchase terms'
       : selectedIntent === 'promotion'
-      ? 'Leave your details — our team will contact you about taking part in the promotion.'
-      : 'Leave your details — our team will discuss your plans and suggest the next step.';
+      ? 'Leave your contact details — the team will contact you and tell you about taking part in the promotion.'
+      : 'Leave your contact details — the team will clarify your plans and suggest a suitable next step.';
   };
   const closeLead = () => {
     if (leadDialog?.open) leadDialog.close();
@@ -432,9 +432,9 @@
     success.setAttribute('role', 'status');
     const successTitle = document.createElement('h3');
     successTitle.tabIndex = -1;
-    successTitle.textContent = 'Thank you! We have received your enquiry';
+    successTitle.textContent = 'Thank you! Your application has been accepted';
     const successText = document.createElement('p');
-    successText.textContent = 'An adviser will contact you shortly.';
+    successText.textContent = 'A manager will contact you shortly.';
     success.append(successTitle, successText);
     demoForm.append(success);
     // Backend integration: dispatch only after the server confirms receipt.
@@ -478,7 +478,7 @@
         submit.disabled = true;
         submit.setAttribute('aria-busy', 'true');
       }
-      if (status) status.textContent = 'Checking your details…';
+      if (status) status.textContent = 'Checking the data…';
       setTimeout(() => {
         if (demoForm.classList.contains('is-submitted')) return;
         demoForm.classList.remove('is-loading');
@@ -495,7 +495,7 @@
   const tourSubmit = tourForm?.querySelector('[data-tour-submit]');
   const syncTourSubmit = () => {
     const intent = tourForm?.querySelector('input[name="intent"]:checked')?.value;
-    if (tourSubmit) tourSubmit.textContent = intent === 'video' ? 'Request a plot video' : 'Book a visit';
+    if (tourSubmit) tourSubmit.textContent = intent === 'video' ? 'Get a video of the plot' : 'Book a tour';
   };
   tourForm?.querySelectorAll('input[name="intent"]').forEach((option) => option.addEventListener('change', syncTourSubmit));
   syncTourSubmit();

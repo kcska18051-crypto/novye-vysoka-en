@@ -26,11 +26,11 @@ window.TRIP_PLANNER_DATA = {
         },
         {
           "title": "Degtyaritsy",
-          "text": "Arrival landmark. The link leads to the village, not to an individual plot."
+          "text": "Arrival landmark. The link leads to the village, not to the plot."
         },
         {
-          "title": "Degtyaritsy → your chosen neighbourhood",
-          "text": "We will send a map pin and access directions before your visit."
+          "title": "Degtyaritsy → chosen neighbourhood",
+          "text": "Before your trip, we will send a map pin and an access plan."
         }
       ],
       "totalMinutes": null,
@@ -44,11 +44,11 @@ window.TRIP_PLANNER_DATA = {
         },
         {
           "title": "Degtyaritsy",
-          "text": "Arrival landmark. The link leads to the village, not to an individual plot."
+          "text": "Arrival landmark. The link leads to the village, not to the plot."
         },
         {
-          "title": "Degtyaritsy → your chosen neighbourhood",
-          "text": "We will send a map pin and access directions before your visit."
+          "title": "Degtyaritsy → chosen neighbourhood",
+          "text": "Before your trip, we will send a map pin and an access plan."
         }
       ],
       "totalMinutes": null,
@@ -62,11 +62,11 @@ window.TRIP_PLANNER_DATA = {
         },
         {
           "title": "Degtyaritsy",
-          "text": "Arrival landmark. The link leads to the village, not to an individual plot."
+          "text": "Arrival landmark. The link leads to the village, not to the plot."
         },
         {
-          "title": "Degtyaritsy → your chosen neighbourhood",
-          "text": "We will send a map pin and access directions before your visit."
+          "title": "Degtyaritsy → chosen neighbourhood",
+          "text": "Before your trip, we will send a map pin and an access plan."
         }
       ],
       "totalMinutes": null,
@@ -80,11 +80,11 @@ window.TRIP_PLANNER_DATA = {
         },
         {
           "title": "Degtyaritsy",
-          "text": "Arrival landmark. The link leads to the village, not to an individual plot."
+          "text": "Arrival landmark. The link leads to the village, not to the plot."
         },
         {
-          "title": "Degtyaritsy → your chosen neighbourhood",
-          "text": "We will send a map pin and access directions before your visit."
+          "title": "Degtyaritsy → chosen neighbourhood",
+          "text": "Before your trip, we will send a map pin and an access plan."
         }
       ],
       "totalMinutes": null,
@@ -104,8 +104,8 @@ window.TRIP_PLANNER_DATA = {
           "source": "https://rubtrans.ru/?page_id=7266"
         },
         {
-          "title": "Degtyaritsy → your chosen neighbourhood",
-          "text": "We will send a map pin and access directions before your visit."
+          "title": "Degtyaritsy → chosen neighbourhood",
+          "text": "Before your trip, we will send a map pin and an access plan."
         }
       ],
       "totalMinutes": null,
@@ -125,8 +125,8 @@ window.TRIP_PLANNER_DATA = {
           "source": "https://rubtrans.ru/?page_id=7266"
         },
         {
-          "title": "Degtyaritsy → your chosen neighbourhood",
-          "text": "We will send a map pin and access directions before your visit."
+          "title": "Degtyaritsy → chosen neighbourhood",
+          "text": "Before your trip, we will send a map pin and an access plan."
         }
       ],
       "totalMinutes": null,
@@ -144,8 +144,8 @@ window.TRIP_PLANNER_DATA = {
           "source": "https://rubtrans.ru/?page_id=7266"
         },
         {
-          "title": "Degtyaritsy → your chosen neighbourhood",
-          "text": "We will send a map pin and access directions before your visit."
+          "title": "Degtyaritsy → chosen neighbourhood",
+          "text": "Before your trip, we will send a map pin and an access plan."
         }
       ],
       "totalMinutes": null,
@@ -164,8 +164,8 @@ window.TRIP_PLANNER_DATA = {
           "source": "https://rubtrans.ru/?page_id=7266"
         },
         {
-          "title": "Degtyaritsy → your chosen neighbourhood",
-          "text": "We will send a map pin and access directions before your visit."
+          "title": "Degtyaritsy → chosen neighbourhood",
+          "text": "Before your trip, we will send a map pin and an access plan."
         }
       ],
       "totalMinutes": null,
@@ -189,8 +189,8 @@ window.TRIP_PLANNER_DATA = {
           "source": "https://rubtrans.ru/?page_id=7266"
         },
         {
-          "title": "Degtyaritsy → your chosen neighbourhood",
-          "text": "We will send a map pin and access directions before your visit."
+          "title": "Degtyaritsy → chosen neighbourhood",
+          "text": "Before your trip, we will send a map pin and an access plan."
         }
       ],
       "totalMinutes": null,
@@ -214,8 +214,8 @@ window.TRIP_PLANNER_DATA = {
           "source": "https://rubtrans.ru/?page_id=7266"
         },
         {
-          "title": "Degtyaritsy → your chosen neighbourhood",
-          "text": "We will send a map pin and access directions before your visit."
+          "title": "Degtyaritsy → chosen neighbourhood",
+          "text": "Before your trip, we will send a map pin and an access plan."
         }
       ],
       "totalMinutes": null,
@@ -225,15 +225,15 @@ window.TRIP_PLANNER_DATA = {
       "steps": [
         {
           "title": "Choose bus or car",
-          "text": "Bus 190 or a car is the most convenient way to reach the project."
+          "text": "It is more convenient to reach the project by bus 190 or by car."
         },
         {
           "title": "Rybinsk → Degtyaritsy",
-          "text": "Select bus or car above."
+          "text": "Choose bus or car using the switch above."
         },
         {
-          "title": "Degtyaritsy → your chosen neighbourhood",
-          "text": "We will send a map pin and access directions before your visit."
+          "title": "Degtyaritsy → chosen neighbourhood",
+          "text": "Before your trip, we will send a map pin and an access plan."
         }
       ],
       "alternative": "bus",
@@ -244,15 +244,15 @@ window.TRIP_PLANNER_DATA = {
       "steps": [
         {
           "title": "Compare train and bus",
-          "text": "Choose a train for your travel date, allowing for connections. Alternatively, travel by bus."
+          "text": "Choose a train for the required date, taking connections into account. The alternative is a bus."
         },
         {
           "title": "Rybinsk → project area",
           "text": "Then take bus 190 via Nikolo-Korma to Degtyaritsy."
         },
         {
-          "title": "Degtyaritsy → your chosen neighbourhood",
-          "text": "We will send a map pin and access directions before your visit."
+          "title": "Degtyaritsy → chosen neighbourhood",
+          "text": "Before your trip, we will send a map pin and an access plan."
         }
       ],
       "alternative": "bus",

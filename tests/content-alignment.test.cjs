@@ -7,7 +7,7 @@ test('English copy preserves the five-neighbourhood scope and four named map reg
 });
 test('RUB pricing, deposit, repayment count and promotion dates retain source facts',()=>{
  assert.match(html,/45[ ,\u00a0]?000/);assert.match(html,/100\s*(?:m²|square metres)/);
- assert.match(html,/<dt>Deposit<\/dt><dd>30<span>%<\/span><\/dd>/);
+ assert.match(html,/<dt>Initial payment<\/dt><dd>30<span>%<\/span><\/dd>/);
  assert.match(html,/<dt>Equal monthly payments<\/dt><dd>12<\/dd>/);
  assert.match(html,/30 October 2025/);assert.match(html,/31 December 2027/);
  assert.match(html,/one (?:plot|purchased plot)[\s\S]{0,60}one (?:entry|ticket)|each plot[\s\S]{0,60}(?:entry|ticket)/i);

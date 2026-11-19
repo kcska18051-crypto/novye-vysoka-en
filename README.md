@@ -1,5 +1,9 @@
 # Novye Vysoka — English edition
 
+On 19 November 2026 the user requested a maximally literal revision against the latest Russian original (`c2516d7`), preserving structure and wording and adding nothing. The page retains all 288 source text fragments, sentence order, repetitions and caveats. Earlier editorial adaptations and added glosses have been removed. The same requirement applies to runtime text, diagram captions and downloadable PDFs.
+
+Run `python tools/compare-source-copy.py --source PATH_TO_RUSSIAN_INDEX` to compare body structure and export aligned source/translation text pairs for manual review. Structural equality does not by itself verify translation accuracy.
+
 Independent English copy of the latest published Russian site, created on 19 November 2026.
 
 - English website: https://kcska18051-crypto.github.io/novye-vysoka-en/

@@ -19,7 +19,7 @@
 
   const escapeHtml = (value) => String(value || '').replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[char]));
   const categoryIcon = { quarters: '⌂', nature: '♧', infrastructure: '◆', transport: '↔' };
-  const categoryName = { quarters: 'Neighbourhood', nature: 'Nature', infrastructure: 'Amenities', transport: 'Transport' };
+  const categoryName = { quarters: 'Neighbourhood', nature: 'Nature', infrastructure: 'Infrastructure', transport: 'Transport' };
 
   function renderFilters() {
     filters.innerHTML = data.categories.map((item) => `<button class="map-filter" type="button" data-map-filter="${item.id}" aria-pressed="${item.id === category}">${escapeHtml(item.label)}</button>`).join('');
@@ -68,7 +68,7 @@
     list.innerHTML = visible.map((item) => `<button class="map-list-button" type="button" data-map-item="${item.id}" aria-pressed="${item.id === selectedId}">${escapeHtml(item.name)}</button>`).join('');
     root.classList.toggle('has-selection', Boolean(selectedId));
     if (!selectedId) {
-      card.innerHTML = '<div class="map-card-empty"><span>Select a marker</span><h3>Choose a neighbourhood or place on the map</h3><p>The master plan, neighbourhood figures or brief information about the place will appear here.</p></div>';
+      card.innerHTML = '<div class="map-card-empty"><span>Select a marker</span><h3>Choose a neighbourhood or object on the map</h3><p>The master plan, neighbourhood figures or brief information about the place will appear here.</p></div>';
       return;
     }
     const view = model.getCardModel(model.getItemById(data, selectedId));

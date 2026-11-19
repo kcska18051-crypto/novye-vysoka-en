@@ -6,8 +6,8 @@
     life: [
       { title: 'Shops', image: 'shop-pyaterochka-client.webp', position: 'center 90%', alt: 'Pyaterochka shop. Client photograph with the pole shadow on the asphalt retouched.' },
       { title: 'Public transport stops', image: 'stop-degtyaritsy.png' },
-      { title: 'Schools', image: 'school-green-v2.webp', alt: 'Artistically edited photograph of a school surrounded by greenery' },
-      { title: 'Roads and access', image: 'road-pines-client-v2.webp', position: 'center 65%', alt: 'Road through a pine forest in a client photograph.' }
+      { title: 'Educational institutions', image: 'school-green-v2.webp', alt: 'Artistically edited photograph of an educational institution surrounded by greenery' },
+      { title: 'Roads and access', image: 'road-pines-client-v2.webp', position: 'center 65%', alt: 'An actual road through a pine forest in a client photograph.' }
     ],
     rest: [
       { title: 'Vysokovsky Bor', image: 'forest-client-natural.webp', position: 'center 75%', alt: 'Vysokovsky Bor and water between the pines. Client photograph with light colour correction.' },
