@@ -32,7 +32,7 @@
 
   function renderQuarter(view) {
     const metrics = [
-      ['Price per 100 m²', view.metrics.pricePerSotka],
+      ['Price per sotka', view.metrics.pricePerSotka],
       ['Available', view.metrics.free],
       ['Reserved', view.metrics.reserved],
       ['Sold', view.metrics.sold]

@@ -29,9 +29,9 @@
     plan.loading='eager';plan.src=id==='chernaya'?'assets/quarter-overview/chernaya-plan-20261028.jpg':id==='vysoka'?'assets/quarter-overview/vysoka-plan.png':`assets/quarter-overview/${id}-plan-en.svg`;plan.alt=`Original neighbourhood master plan: «${name}»`;
     viewer.setAttribute('aria-label',`Neighbourhood master plan: «${name}». Zoom: plus and minus. Pan: arrow keys or drag.`);
     const price=priceData[id];$('.qe-price').hidden=!price;
-    if(price)$('.qe-price').innerHTML=`from ${price.toLocaleString('en-GB')} ₽<span>per 100 m²</span>`;
+    if(price)$('.qe-price').innerHTML=`from ${price.toLocaleString('en-GB')} ₽<span>per sotka</span>`;
     $('.qe-key').hidden=!['degtyaritsy','nikolo'].includes(id);
-    if(price)$('.qe-key p').lastChild.textContent=`from ${price.toLocaleString('en-GB')} RUB per 100 m²`;
+    if(price)$('.qe-key p').lastChild.textContent=`from ${price.toLocaleString('en-GB')} RUB per sotka`;
     $('.qe-key p:last-child').hidden=id!=='degtyaritsy';
     $('[data-plan-quarter]').dataset.planQuarter=name;
     $('#qe-pdf').href=`assets/quarter-overview/${id}-plan.pdf`;$('#qe-pdf').download=`${name} — master plan.pdf`;
