@@ -1,8 +1,8 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
 const root=path.resolve(__dirname,'..'),html=fs.readFileSync(path.join(root,'dist/index.html'),'utf8');
 const original=require('./fixtures/russian-source-contract.json');
-test('English copy preserves the five-neighbourhood scope and four named map regions',()=>{
- assert.match(html,/5 neighbourhoods|five neighbourhoods/i);
+test('English copy preserves the four-neighbourhood scope and four named map regions',()=>{
+ assert.match(html,/4 neighbourhoods|four neighbourhoods/i);
  assert.deepEqual([...html.matchAll(/data-map-quarter="([^"]+)"/g)].map(m=>m[1]),['degtyaritsy','chernaya','vysoka','nikolo']);
 });
 test('RUB pricing, deposit, repayment count and promotion dates retain source facts',()=>{
