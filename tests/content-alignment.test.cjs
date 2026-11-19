@@ -6,7 +6,7 @@ test('English copy preserves the four-neighbourhood scope and four named map reg
  assert.deepEqual([...html.matchAll(/data-map-quarter="([^"]+)"/g)].map(m=>m[1]),['degtyaritsy','chernaya','vysoka','nikolo']);
 });
 test('RUB pricing, deposit, repayment count and promotion dates retain source facts',()=>{
- assert.match(html,/45[ ,\u00a0]?000/);assert.match(html,/100\s*(?:m²|square metres)/);
+ assert.match(html,/45[ ,\u00a0]?000/);assert.match(html,/45,000 per sotka/);
  assert.match(html,/<dt>Initial payment<\/dt><dd>30<span>%<\/span><\/dd>/);
  assert.match(html,/<dt>Equal monthly payments<\/dt><dd>12<\/dd>/);
  assert.match(html,/30 October 2025/);assert.match(html,/31 December 2027/);

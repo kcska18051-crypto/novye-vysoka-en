@@ -28,3 +28,5 @@ Run node --test tests/*.test.cjs for data, translation and international phone c
 Run node tools/verify-english-browser.cjs for responsive browser checks. It uses Playwright from the Codex bundled Node runtime; CHECK_URL overrides the default http://127.0.0.1:4181/. CHECK_WIDTHS can select comma-separated widths. Screenshots and results go under tmp/english-browser-qa/.
 
 The Russian and Chinese sites are separate repositories and were not changed by this work.
+
+Pricing terminology (19 November 2026): Russian land unit sotka is retained in visible labels (English per sotka, Chinese 每1索特卡). A hover tooltip explains 1 sotka = 100 m². Monetary values and numeric areas are unchanged.
