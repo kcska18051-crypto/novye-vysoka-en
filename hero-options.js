@@ -3,7 +3,7 @@
   if (!root) return;
   const choices = [
     {src:'assets/client-october/hero-beach.webp',mobile:'assets/client-october/hero-beach-mobile.webp',alt:'Sandy shore, water and pine forest'},
-    {src:'assets/forest-v2/hero.webp',alt:'Illustration of a country home among pines by the water'}
+    {src:'assets/forest-v2/hero.webp',alt:'An image of a country house among pines by the water'}
   ];
   const buttons = [...root.querySelectorAll('[data-hero-option]')];
   const reduced = matchMedia('(prefers-reduced-motion:reduce)');

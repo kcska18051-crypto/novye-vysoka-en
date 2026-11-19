@@ -2,7 +2,7 @@
   const root = document.querySelector('.quarter-explorer');
   if (!root) return;
   const $ = s => root.querySelector(s);
-  const quarters = {degtyaritsy:'Degtyaritsy',nikolo:'Nikolo-Korma',vysoka:'Novye Vysoka',chernaya:'Chyornaya Rechka (Black River)'};
+  const quarters = {degtyaritsy:'Degtyaritsy',nikolo:'Nikolo-Korma',vysoka:'Novye Vysoka',chernaya:'Chyornaya Rechka'};
   const overview=$('#qe-overview'),detail=$('#qe-detail'),viewer=$('.qe-viewer'),plan=$('#qe-plan');
   let scale=1,x=0,y=0;
   const pointers=new Map(); let gesture=null;
