@@ -1,0 +1,409 @@
+{
+  "source": "c2516d796b47fd7a633923592bf299eef906f7ab",
+  "destination": {
+    "name": "Дегтярицы",
+    "address": "Дегтярицы, Рыбинский район, Ярославская область, Россия",
+    "source": "https://landmarket.biz/derevnya-degtyaritsy",
+    "kind": "settlement",
+    "entrance": null
+  },
+  "routes": {
+    "moscow:car": {
+      "totalMinutes": null,
+      "alternative": null,
+      "steps": [
+        {
+          "numbers": [],
+          "source": null
+        },
+        {
+          "numbers": [],
+          "source": null
+        },
+        {
+          "numbers": [],
+          "source": null
+        }
+      ]
+    },
+    "yaroslavl:car": {
+      "totalMinutes": null,
+      "alternative": null,
+      "steps": [
+        {
+          "numbers": [],
+          "source": null
+        },
+        {
+          "numbers": [],
+          "source": null
+        },
+        {
+          "numbers": [],
+          "source": null
+        }
+      ]
+    },
+    "rybinsk:car": {
+      "totalMinutes": null,
+      "alternative": null,
+      "steps": [
+        {
+          "numbers": [],
+          "source": null
+        },
+        {
+          "numbers": [],
+          "source": null
+        },
+        {
+          "numbers": [],
+          "source": null
+        }
+      ]
+    },
+    "uglich:car": {
+      "totalMinutes": null,
+      "alternative": null,
+      "steps": [
+        {
+          "numbers": [],
+          "source": null
+        },
+        {
+          "numbers": [],
+          "source": null
+        },
+        {
+          "numbers": [],
+          "source": null
+        }
+      ]
+    },
+    "moscow:bus": {
+      "totalMinutes": null,
+      "alternative": null,
+      "steps": [
+        {
+          "numbers": [
+            "5"
+          ],
+          "source": "https://rasp.yandex.ru/bus/moscow--rybinsk"
+        },
+        {
+          "numbers": [
+            "190"
+          ],
+          "source": "https://rubtrans.ru/?page_id=7266"
+        },
+        {
+          "numbers": [],
+          "source": null
+        }
+      ]
+    },
+    "yaroslavl:bus": {
+      "totalMinutes": null,
+      "alternative": null,
+      "steps": [
+        {
+          "numbers": [
+            "500",
+            "504",
+            "500",
+            "1",
+            "45",
+            "504",
+            "2"
+          ],
+          "source": "https://rasp.yandex.ru/bus/yaroslavl--rybinsk"
+        },
+        {
+          "numbers": [
+            "190"
+          ],
+          "source": "https://rubtrans.ru/?page_id=7266"
+        },
+        {
+          "numbers": [],
+          "source": null
+        }
+      ]
+    },
+    "rybinsk:bus": {
+      "totalMinutes": null,
+      "alternative": null,
+      "steps": [
+        {
+          "numbers": [
+            "190"
+          ],
+          "source": null
+        },
+        {
+          "numbers": [
+            "190"
+          ],
+          "source": "https://rubtrans.ru/?page_id=7266"
+        },
+        {
+          "numbers": [],
+          "source": null
+        }
+      ]
+    },
+    "uglich:bus": {
+      "totalMinutes": null,
+      "alternative": null,
+      "steps": [
+        {
+          "numbers": [
+            "190"
+          ],
+          "source": "https://rasp.yandex.ru/bus/uglich--rybinsk"
+        },
+        {
+          "numbers": [
+            "190"
+          ],
+          "source": "https://rubtrans.ru/?page_id=7266"
+        },
+        {
+          "numbers": [],
+          "source": null
+        }
+      ]
+    },
+    "moscow:train": {
+      "totalMinutes": null,
+      "alternative": null,
+      "steps": [
+        {
+          "numbers": [
+            "726",
+            "3",
+            "59"
+          ],
+          "source": "https://rasp.yandex.ru/train/moscow--rybinsk-passazhirskiy"
+        },
+        {
+          "numbers": [
+            "190"
+          ],
+          "source": null
+        },
+        {
+          "numbers": [
+            "190"
+          ],
+          "source": "https://rubtrans.ru/?page_id=7266"
+        },
+        {
+          "numbers": [],
+          "source": null
+        }
+      ]
+    },
+    "yaroslavl:train": {
+      "totalMinutes": null,
+      "alternative": null,
+      "steps": [
+        {
+          "numbers": [
+            "6711",
+            "1",
+            "12",
+            "15"
+          ],
+          "source": "https://rasp.yandex.ru/suburban/yaroslavl-glavniy--rybinsk-passazhirskiy"
+        },
+        {
+          "numbers": [
+            "190"
+          ],
+          "source": null
+        },
+        {
+          "numbers": [
+            "190"
+          ],
+          "source": "https://rubtrans.ru/?page_id=7266"
+        },
+        {
+          "numbers": [],
+          "source": null
+        }
+      ]
+    },
+    "rybinsk:train": {
+      "totalMinutes": null,
+      "alternative": "bus",
+      "steps": [
+        {
+          "numbers": [
+            "190"
+          ],
+          "source": null
+        },
+        {
+          "numbers": [],
+          "source": null
+        },
+        {
+          "numbers": [],
+          "source": null
+        }
+      ]
+    },
+    "uglich:train": {
+      "totalMinutes": null,
+      "alternative": "bus",
+      "steps": [
+        {
+          "numbers": [],
+          "source": null
+        },
+        {
+          "numbers": [
+            "190"
+          ],
+          "source": null
+        },
+        {
+          "numbers": [],
+          "source": null
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "quarter-1",
+      "x": 33,
+      "y": 28,
+      "category": "quarters",
+      "image": "assets/quarters/quarter-1.webp",
+      "imageFallback": null
+    },
+    {
+      "id": "quarter-2",
+      "x": 30,
+      "y": 51,
+      "category": "quarters",
+      "image": "assets/quarters/quarter-2.webp",
+      "imageFallback": null
+    },
+    {
+      "id": "quarter-3",
+      "x": 51,
+      "y": 66,
+      "category": "quarters",
+      "image": "assets/quarters/quarter-3.webp",
+      "imageFallback": null
+    },
+    {
+      "id": "quarter-4",
+      "x": 76,
+      "y": 72,
+      "category": "quarters",
+      "image": "assets/quarters/quarter-4.webp",
+      "imageFallback": null
+    },
+    {
+      "id": "quarter-5",
+      "x": 83,
+      "y": 88,
+      "category": "quarters",
+      "image": "assets/quarters/quarter-5.webp",
+      "imageFallback": null
+    },
+    {
+      "id": "forest",
+      "x": 43,
+      "y": 43,
+      "category": "nature",
+      "image": "assets/forest-path.webp",
+      "imageFallback": null
+    },
+    {
+      "id": "beach",
+      "x": 8,
+      "y": 31,
+      "category": "nature",
+      "image": "assets/quiet-beach.webp",
+      "imageFallback": null
+    },
+    {
+      "id": "pier",
+      "x": 9,
+      "y": 46,
+      "category": "infrastructure",
+      "image": "assets/forest-v2/pier-client.webp",
+      "imageFallback": null
+    },
+    {
+      "id": "restaurant",
+      "x": 62,
+      "y": 23,
+      "category": "infrastructure",
+      "image": "assets/map-objects/restaurant.webp",
+      "imageFallback": "assets/terrace-family.webp"
+    },
+    {
+      "id": "camp",
+      "x": 25,
+      "y": 37,
+      "category": "infrastructure",
+      "image": "assets/forest-water.webp",
+      "imageFallback": null
+    },
+    {
+      "id": "school",
+      "x": 91,
+      "y": 76,
+      "category": "infrastructure",
+      "image": null,
+      "imageFallback": "assets/territory-panorama.jpg"
+    },
+    {
+      "id": "shop-five",
+      "x": 94,
+      "y": 67,
+      "category": "infrastructure",
+      "image": null,
+      "imageFallback": "assets/territory-panorama.jpg"
+    },
+    {
+      "id": "shop-ryzhik",
+      "x": 92,
+      "y": 83,
+      "category": "infrastructure",
+      "image": null,
+      "imageFallback": "assets/territory-panorama.jpg"
+    },
+    {
+      "id": "church-nicholas",
+      "x": 88,
+      "y": 79,
+      "category": "infrastructure",
+      "image": null,
+      "imageFallback": "assets/territory-panorama.jpg"
+    },
+    {
+      "id": "church-presentation",
+      "x": 86,
+      "y": 74,
+      "category": "infrastructure",
+      "image": null,
+      "imageFallback": "assets/territory-panorama.jpg"
+    },
+    {
+      "id": "bus-stop",
+      "x": 56,
+      "y": 17,
+      "category": "transport",
+      "image": null,
+      "imageFallback": "assets/route-map.png"
+    }
+  ]
+}
